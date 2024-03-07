@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./assets/css/base.css" />
+
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body
+    class="font-figtree h-screen bg-yellow flex justify-center items-center text-[14px]"
+  >
+    <main
+      class="bg-white outline outline-offset-0 outline-1 p-5 rounded-2xl w-[325px] shadow-card"
+    >
+      <div class="flex flex-col">
+        <img
+          class="rounded-xl w-full h-[201px] block object-cover"
+          src="./assets/images/illustration-article.svg"
+          alt="Article's Illustration"
+        />
+
+        <div id="tags" class="flex flex-wrap gap-1 mt-[23px]">
+          <span class="px-3 py-0.5 font-bold bg-yellow rounded-md"
+            >Learning</span
+          >
+        </div>
+
+        <p class="pt-[10px] text-xs">Published 21 Dec 2023</p>
+
+        <a href="#" class="font-bold text-xl my-[16px] hover:text-yellow"
+          >HTML & CSS foundations</a
+        >
+
+        <p class="text-grey">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+
+        <section class="flex items-center gap-3 pt-[28px]">
+          <img
+            class="w-[30px]"
+            src="./assets/images/image-avatar.webp"
+            alt="Greg Hooper's Avatar"
+          />
+
+          <p class="font-bold">Greg Hooper</p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
